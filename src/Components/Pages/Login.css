@@ -1,0 +1,18 @@
+.container{
+    background-color: #a3b18a;
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    margin:0 auto;
+    margin-bottom: 30px;
+    display: flex; /* Enables flexbox */
+    flex-direction: column; /* Aligns items in a column */
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Centers content horizontally */
+    padding: 20px;
+}
+
+
+.but{
+    background-color: #41645A !important;
+}

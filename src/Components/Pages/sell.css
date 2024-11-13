@@ -1,0 +1,107 @@
+.container{
+    margin-top: 20px !important;
+    background-color: #DDE2A3 !important;
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    
+    margin-bottom: 30px;
+    display: flex; /* Enables flexbox */
+    flex-direction: column; /* Aligns items in a column */
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Centers content horizontally */
+    padding: 20px;
+}
+
+
+/* Customize the placeholder */
+.custom-input input::placeholder {
+    color: #ffffff ; 
+    opacity: 0.8 ;
+    font-style: italic;
+    border-radius: 50px;
+}
+
+/* Input customization */
+.custom-input input {
+    background-color: #A19F8A; /* Custom background */
+    color: #fff; /* Input text color */
+    border: 1px solid #A19F8A;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    height: 40px;
+    width:300px;
+    outline: none;
+}
+
+.but{
+    background-color: #41654A !important;
+    border-radius: 10px;
+    border-color: #41654A !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin:0 auto;
+    outline: none;
+    left:600px;
+    position: relative;
+    
+
+}
+.nextui-button .ripple {
+    display: none !important;
+}
+body{
+    margin: 100px;
+    background-color: #F2F0DD !important;
+}
+html, body{
+    overflow: visible;
+}
+
+.card{
+    max-width:50px;
+    max-height: 50px;
+    top:10px;
+    left:10px;
+    outline: none;
+    position: absolute;
+    background-color:#dad7cd;
+    border-color: #dad7cd;
+    box-shadow: none;
+    border: none;
+    /*box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);*/
+    animation: none;
+
+}
+.card-image{
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+
+}
+
+.ccontainer {
+    position: relative; /* Set the container to relative positioning */
+    background-color: #a3b18a;
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding: 10px; /* Optional: Add padding to the container */
+}
+
+.p-fileupload-choose {
+    background-color: #D4B079; /* Change this to the desired background color */
+    color: white;              /* Optional: Set text color */
+    border: none;              /* Optional: Remove border */
+    padding: 10px 20px;        /* Optional: Add padding */
+    border-radius: 5px;        /* Optional: Round the corners */
+    cursor: pointer;           /* Optional: Change cursor to pointer */
+    transition: background-color 0.3s ease; /* Optional: Add transition */
+}
+/* Hide the "Upload" and "Cancel" buttons in the FileUpload component */
+

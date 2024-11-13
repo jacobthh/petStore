@@ -1,0 +1,18 @@
+/* Error: Undefined variable.
+ *    ,
+ * 92 |       values: map-loop($theme-colors-rgb, rgba-css-var, "$key", "focus-ring")
+ *    |                        ^^^^^^^^^^^^^^^^^
+ *    '
+ *   ..\..\..\node_modules\bootstrap\scss\_utilities.scss 92:24  @import
+ *   custom.scss 6:9                                             root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: Undefined variable.\a    \2577 \a 92 \2502        values: map-loop($theme-colors-rgb, rgba-css-var, "$key", "focus-ring")\a    \2502                         ^^^^^^^^^^^^^^^^^\a    \2575 \a   ..\\..\\..\\node_modules\\bootstrap\\scss\\_utilities.scss 92:24  @import\a   custom.scss 6:9                                             root stylesheet';
+}

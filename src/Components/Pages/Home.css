@@ -1,0 +1,109 @@
+.cccontainer {
+    display: flex; /* Enables flexbox */
+    justify-content: center; /* Horizontally centers the content */
+    align-items: center; /* Vertically centers the content */
+    width: 400px !important; /* Set the width to be greater than height */
+    height: 200px !important; /* Set a smaller height */
+    background-color: #DDE2A3 !important; /* Updated color */
+    position: absolute;
+    top: 200px; /* Adjust this value based on your layout */
+    left: 200px !important; /* Adjust this value based on your layout */
+    outline: none;
+    border-color: #DDE2A3 !important; /* Update border color if applicable */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Optional: Adjust the corner rounding */
+}
+
+.card-title {
+    margin: 0; /* Remove margin for a better layout */
+    font-size: 1.5rem; /* Font size for the title */
+    color: #fff; /* Change text color */
+    font-weight: bold; /* Make text bold */
+    text-align: center; /* Center text */
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align content */
+    text-align: center; /* Center text */
+}
+
+.down {
+    margin-left: -600px; /* Adjust spacing between cards */
+    margin-top: 250px;
+}
+
+body {
+    background-color: #A19F8A !important; /* You can change this to any color you prefer */
+    margin: 0;
+    padding: 0; 
+    font-family: Arial, sans-serif; /* Optional: Set a default font for the page */
+}
+
+/* Ensure the background covers the full height of the page */
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+.header {
+    background-color: #41645A !important; /* Keep existing background color */
+    height: 150px; /* Height of the header */
+    box-shadow: 0 16px 64px rgba(0, 0, 0, 0.1);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    display: flex; /* Enable Flexbox */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+.header h1 {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    font-size: 3.5rem; /* Increase font size (adjust as needed) */
+    color: white; /* Change text color to white */
+    text-align: center; /* Center text */
+    font-family: 'Bebas Neue', sans-serif;
+}
+.image-container {
+    width: 1520px; /* Set the width of the container */
+    height: 545px; /* Set the height of the container */
+    overflow: hidden; /* Hide any part of the image that overflows the container */
+    position: relative; /* Position relative for absolute children */
+}
+
+.pic {
+    opacity: 60%; /* Set the opacity to 60% */
+    position: absolute; /* Allow absolute positioning */
+    left: 0; /* Align to the left */
+    top: 0; /* Align to the top */
+    width: 100%; /* Fill the container width */
+    height: 100%; /* Fill the container height */
+    object-fit: cover; /* Ensure the image covers the element */
+    object-position: center 70%;
+    display: block; /* Remove any inline spacing */
+}
+
+.login {
+    width: 40px; /* Set a specific width */
+    height: 40px; /* Set a specific height */
+    padding: 0; /* Remove any default padding */
+    border-radius: 8px; /* Slightly rounded corners for aesthetics */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    overflow: hidden; /* Ensure contents don't overflow */
+    display: flex; /* Use flexbox for centering content */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+.card-image {
+    width: 80%; /* Set width of the image to fit within the button */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Ensure the image fits nicely */
+    display: block; /* Ensure proper block display */
+}

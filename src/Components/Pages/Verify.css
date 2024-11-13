@@ -1,0 +1,73 @@
+.verify-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center vertically */
+    padding: 20px;
+    background-color: #F2F0DD; /* Light background for the main container */
+    min-height: 100vh; /* Ensure it takes the full height of the viewport */
+}
+
+.carousel-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center the content within the carousel area */
+    width: 100%;
+    max-width: 900px; /* Optional: limit the max width of the carousel */
+    background-color: #DDE2A3; /* Light background for the carousel */
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: auto; /* Center the carousel in the page */
+}
+
+.carousel-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.pet-image {
+    border-radius: 8px;
+    width: 100%; /* Responsive image */
+    max-width: 300px; /* Max width to maintain size */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.pet-info {
+    background-color: #fff; /* White background for readability */
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Full width for the info box */
+    margin-top: 10px;
+}
+
+.button-group {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around; /* Space buttons evenly */
+    width: 100%; /* Full width for the button group */
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Ensure the body has a consistent background and font */
+body {
+    background-color: #dad7cd; /* Background color */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Default font */
+}
+
+/* Ensure the background covers the full height of the page */
+html, body {
+    height: 100%;
+}
